@@ -19,15 +19,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBudgetModal }) => {
           {/* Main Copy (Left) */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
-            {/* Live Status Eyebrow */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-sm bg-white/5 border border-yellow-400/30 mb-6 yellow-glow">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-400"></span>
-              </span>
-              <span className="font-mono text-xs uppercase tracking-[0.25em] text-yellow-400 font-bold">
-                Ecossistema de Marketing 360° & IA de Alta Conversão
-              </span>
+            {/* Brand Emblem / Logo */}
+            <div className="mb-6 w-full max-w-2xl overflow-visible">
+              <img
+                src="https://i.ibb.co/ffp4qg4/Gemini-Generated-Image-removebg-preview.png"
+                alt="Sonho Studio - Marketing 360° & IA"
+                referrerPolicy="no-referrer"
+                className="w-full h-28 sm:h-36 lg:h-44 pl-[234px] pr-0 pt-0 ml-[200px] mr-[2px] object-contain object-left filter drop-shadow-[0_0_25px_rgba(250,204,21,0.45)] hover:scale-[1.02] transition-transform duration-300"
+              />
             </div>
 
             {/* Headline */}

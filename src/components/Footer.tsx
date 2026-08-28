@@ -13,9 +13,14 @@ export const Footer: React.FC = () => {
           
           {/* Logo & Manifesto */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="flex items-center gap-2 mb-2">
-              <div className="w-8 h-8 rounded-lg bg-[#facc15] flex items-center justify-center text-black font-black text-lg">
-                S
+            <div className="flex items-center gap-2.5 mb-2">
+              <div className="w-8 h-8 flex items-center justify-center shrink-0">
+                <img
+                  src="https://i.ibb.co/ffp4qg4/Gemini-Generated-Image-removebg-preview.png"
+                  alt="Sonho Studio Logo"
+                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-contain filter drop-shadow-[0_0_6px_rgba(250,204,21,0.4)]"
+                />
               </div>
               <span className="font-bebas text-2xl text-white tracking-wider">
                 SONHO <span className="text-[#facc15]">STUDIO</span>

@@ -37,23 +37,19 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBudgetModal }) => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-10 flex items-center justify-between">
-          {/* Brand Logo - Diamond Accent */}
+          {/* Brand Logo */}
           <a
             href="#hero"
             id="nav-logo-btn"
-            className="flex items-center gap-3.5 group focus:outline-none"
+            className="flex items-center group focus:outline-none"
           >
-            <div className="relative w-8 h-8 flex items-center justify-center">
-              <div className="w-7 h-7 bg-yellow-400 rounded-xs rotate-45 group-hover:rotate-90 group-hover:bg-white transition-all duration-300 shadow-md shadow-yellow-400/20"></div>
-              <span className="absolute font-black text-xs text-black font-mono select-none">S</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tighter uppercase italic text-white leading-none">
-                SONHO <span className="text-yellow-400">STUDIO</span>
-              </span>
-              <span className="font-mono text-[9px] tracking-[0.25em] text-gray-400 uppercase mt-0.5">
-                Marketing 360° & IA
-              </span>
+            <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center shrink-0">
+              <img
+                src="https://i.ibb.co/ffp4qg4/Gemini-Generated-Image-removebg-preview.png"
+                alt="Sonho Studio Logo"
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-contain filter drop-shadow-[0_0_12px_rgba(250,204,21,0.5)] group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </a>
 

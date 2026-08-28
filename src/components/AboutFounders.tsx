@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Briefcase, Sparkles, Users, Video, ShieldCheck } from 'lucide-react';
+import { Award } from 'lucide-react';
 
 export const AboutFounders: React.FC = () => {
   return (
@@ -34,14 +34,16 @@ export const AboutFounders: React.FC = () => {
           
           {/* Denison Limeira */}
           <div className="rounded-3xl bg-[#0a0a0a] border border-zinc-800 hover:border-[#facc15]/60 transition-all p-6 sm:p-8 flex flex-col sm:flex-row gap-6 items-start yellow-glow">
-            <div className="w-full sm:w-48 h-60 rounded-2xl overflow-hidden bg-zinc-900 shrink-0 border border-zinc-800 relative">
+            <div className="w-full sm:w-48 h-60 rounded-2xl overflow-hidden bg-zinc-900 shrink-0 border border-zinc-800 relative group">
               <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
-                alt="Denison Limeira"
-                className="w-full h-full object-cover filter grayscale contrast-125"
+                src="https://i.ibb.co/995gdpd2/foto-instrutor.jpg"
+                alt="foto instrutor - Denison Limeira"
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover filter contrast-125 group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-              <div className="absolute bottom-2 left-2 right-2 text-center">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none"></div>
+              
+              <div className="absolute bottom-2 left-2 right-2 text-center pointer-events-none">
                 <span className="px-2 py-0.5 rounded bg-black/80 text-[10px] font-mono-code text-[#facc15]">
                   Estratégia & IA
                 </span>
@@ -82,14 +84,16 @@ export const AboutFounders: React.FC = () => {
 
           {/* Vinicius Cunha */}
           <div className="rounded-3xl bg-[#0a0a0a] border border-zinc-800 hover:border-[#facc15]/60 transition-all p-6 sm:p-8 flex flex-col sm:flex-row gap-6 items-start yellow-glow">
-            <div className="w-full sm:w-48 h-60 rounded-2xl overflow-hidden bg-zinc-900 shrink-0 border border-zinc-800 relative">
+            <div className="w-full sm:w-48 h-60 rounded-2xl overflow-hidden bg-zinc-900 shrink-0 border border-zinc-800 relative group">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
-                alt="Vinicius Cunha"
-                className="w-full h-full object-cover filter grayscale contrast-125"
+                src="https://i.ibb.co/kVdhQGCL/foto-instrutor-2.jpg"
+                alt="foto instrutor 2 - Vinicius Cunha"
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover filter contrast-125 group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-              <div className="absolute bottom-2 left-2 right-2 text-center">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none"></div>
+
+              <div className="absolute bottom-2 left-2 right-2 text-center pointer-events-none">
                 <span className="px-2 py-0.5 rounded bg-black/80 text-[10px] font-mono-code text-[#facc15]">
                   Audiovisual & Direção
                 </span>
