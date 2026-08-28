@@ -1,0 +1,6 @@
+{
+  "name": "Sonho Studio | Landing Page de Alta Conversão & Ecossistema 360°",
+  "description": "Landing page de vendas focada em alta conversão da Sonho Studio com serviços digitais, automações, chatbots com IA, plataforma de delivery, área de membros, vídeos promocionais e chat em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
