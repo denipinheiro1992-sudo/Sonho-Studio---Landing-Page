@@ -19,14 +19,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBudgetModal }) => {
           {/* Main Copy (Left) */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
-            {/* Brand Emblem / Logo */}
-            <div className="mb-6 w-full max-w-2xl overflow-visible">
-              <img
-                src="https://i.ibb.co/ffp4qg4/Gemini-Generated-Image-removebg-preview.png"
-                alt="Sonho Studio - Marketing 360° & IA"
-                referrerPolicy="no-referrer"
-                className="w-full h-28 sm:h-36 lg:h-44 pl-[234px] pr-0 pt-0 ml-[200px] mr-[2px] object-contain object-left filter drop-shadow-[0_0_25px_rgba(250,204,21,0.45)] hover:scale-[1.02] transition-transform duration-300"
-              />
+            {/* Animated Blinking Welcome Badge / Text */}
+            <div className="inline-flex items-center gap-3 px-5 py-2 rounded-xl bg-yellow-400/10 border border-yellow-400/40 mb-4 shadow-[0_0_18px_rgba(250,204,21,0.25)] max-w-full">
+              <span className="relative flex h-3 w-3 shrink-0">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-yellow-400"></span>
+              </span>
+              <span className="font-['Courier_New',monospace] text-[14px] leading-[54.75px] text-center italic font-normal no-underline text-[#fdc000] w-[628.353px] max-w-full h-[74.5186px] inline-flex items-center justify-center animate-pulse drop-shadow-[0_0_10px_rgba(250,204,21,0.6)]">
+                Bem vindo ao Sonho Studio. Aqui você transforma seu sonho em realidade!
+              </span>
             </div>
 
             {/* Headline */}
